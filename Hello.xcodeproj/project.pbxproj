@@ -14,6 +14,9 @@
 		68BBCD7E1E8366C0007DC9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BBCD7C1E8366C0007DC9B1 /* LaunchScreen.storyboard */; };
 		68BBCD891E8366C0007DC9B1 /* _1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BBCD881E8366C0007DC9B1 /* _1Tests.swift */; };
 		68BBCD941E8366C0007DC9B1 /* _1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BBCD931E8366C0007DC9B1 /* _1UITests.swift */; };
+		68BBCDA41E8366E4007DC9B1 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBCDA31E8366E4007DC9B1 /* SecViewController.m */; };
+		68BBCDA71E839B23007DC9B1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBCDA61E839B23007DC9B1 /* ThirdViewController.m */; };
+		68BBCDAB1E83A5B8007DC9B1 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BBCDAA1E83A5B8007DC9B1 /* ForthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		68BBCD701E8366C0007DC9B1 /* 11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BBCD701E8366C0007DC9B1 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BBCD731E8366C0007DC9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68BBCD751E8366C0007DC9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68BBCD781E8366C0007DC9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68BBCD7A1E8366C0007DC9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68BBCD7D1E8366C0007DC9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68BBCD7F1E8366C0007DC9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68BBCD841E8366C0007DC9B1 /* 11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 11Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BBCD841E8366C0007DC9B1 /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BBCD881E8366C0007DC9B1 /* _1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1Tests.swift; sourceTree = "<group>"; };
 		68BBCD8A1E8366C0007DC9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68BBCD8F1E8366C0007DC9B1 /* 11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BBCD8F1E8366C0007DC9B1 /* HelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BBCD931E8366C0007DC9B1 /* _1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1UITests.swift; sourceTree = "<group>"; };
 		68BBCD951E8366C0007DC9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BBCDA11E8366E4007DC9B1 /* 11-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11-Bridging-Header.h"; sourceTree = "<group>"; };
+		68BBCDA21E8366E4007DC9B1 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		68BBCDA31E8366E4007DC9B1 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		68BBCDA51E839B23007DC9B1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		68BBCDA61E839B23007DC9B1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		68BBCDAA1E83A5B8007DC9B1 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +86,7 @@
 		68BBCD671E8366C0007DC9B1 = {
 			isa = PBXGroup;
 			children = (
-				68BBCD721E8366C0007DC9B1 /* 11 */,
+				68BBCD721E8366C0007DC9B1 /* Hello */,
 				68BBCD871E8366C0007DC9B1 /* 11Tests */,
 				68BBCD921E8366C0007DC9B1 /* 11UITests */,
 				68BBCD711E8366C0007DC9B1 /* Products */,
@@ -87,23 +96,30 @@
 		68BBCD711E8366C0007DC9B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68BBCD701E8366C0007DC9B1 /* 11.app */,
-				68BBCD841E8366C0007DC9B1 /* 11Tests.xctest */,
-				68BBCD8F1E8366C0007DC9B1 /* 11UITests.xctest */,
+				68BBCD701E8366C0007DC9B1 /* Hello.app */,
+				68BBCD841E8366C0007DC9B1 /* HelloTests.xctest */,
+				68BBCD8F1E8366C0007DC9B1 /* HelloUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68BBCD721E8366C0007DC9B1 /* 11 */ = {
+		68BBCD721E8366C0007DC9B1 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
 				68BBCD731E8366C0007DC9B1 /* AppDelegate.swift */,
 				68BBCD751E8366C0007DC9B1 /* ViewController.swift */,
+				68BBCDA21E8366E4007DC9B1 /* SecViewController.h */,
+				68BBCDA31E8366E4007DC9B1 /* SecViewController.m */,
+				68BBCDA51E839B23007DC9B1 /* ThirdViewController.h */,
+				68BBCDA61E839B23007DC9B1 /* ThirdViewController.m */,
+				68BBCDAA1E83A5B8007DC9B1 /* ForthViewController.swift */,
 				68BBCD771E8366C0007DC9B1 /* Main.storyboard */,
 				68BBCD7A1E8366C0007DC9B1 /* Assets.xcassets */,
 				68BBCD7C1E8366C0007DC9B1 /* LaunchScreen.storyboard */,
 				68BBCD7F1E8366C0007DC9B1 /* Info.plist */,
+				68BBCDA11E8366E4007DC9B1 /* 11-Bridging-Header.h */,
 			);
+			name = Hello;
 			path = 11;
 			sourceTree = "<group>";
 		};
@@ -128,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68BBCD6F1E8366C0007DC9B1 /* 11 */ = {
+		68BBCD6F1E8366C0007DC9B1 /* Hello */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68BBCD981E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "11" */;
+			buildConfigurationList = 68BBCD981E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "Hello" */;
 			buildPhases = (
 				68BBCD6C1E8366C0007DC9B1 /* Sources */,
 				68BBCD6D1E8366C0007DC9B1 /* Frameworks */,
@@ -140,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = 11;
+			name = Hello;
 			productName = 11;
-			productReference = 68BBCD701E8366C0007DC9B1 /* 11.app */;
+			productReference = 68BBCD701E8366C0007DC9B1 /* Hello.app */;
 			productType = "com.apple.product-type.application";
 		};
-		68BBCD831E8366C0007DC9B1 /* 11Tests */ = {
+		68BBCD831E8366C0007DC9B1 /* HelloTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68BBCD9B1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "11Tests" */;
+			buildConfigurationList = 68BBCD9B1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "HelloTests" */;
 			buildPhases = (
 				68BBCD801E8366C0007DC9B1 /* Sources */,
 				68BBCD811E8366C0007DC9B1 /* Frameworks */,
@@ -158,14 +174,14 @@
 			dependencies = (
 				68BBCD861E8366C0007DC9B1 /* PBXTargetDependency */,
 			);
-			name = 11Tests;
+			name = HelloTests;
 			productName = 11Tests;
-			productReference = 68BBCD841E8366C0007DC9B1 /* 11Tests.xctest */;
+			productReference = 68BBCD841E8366C0007DC9B1 /* HelloTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		68BBCD8E1E8366C0007DC9B1 /* 11UITests */ = {
+		68BBCD8E1E8366C0007DC9B1 /* HelloUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68BBCD9E1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "11UITests" */;
+			buildConfigurationList = 68BBCD9E1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "HelloUITests" */;
 			buildPhases = (
 				68BBCD8B1E8366C0007DC9B1 /* Sources */,
 				68BBCD8C1E8366C0007DC9B1 /* Frameworks */,
@@ -176,9 +192,9 @@
 			dependencies = (
 				68BBCD911E8366C0007DC9B1 /* PBXTargetDependency */,
 			);
-			name = 11UITests;
+			name = HelloUITests;
 			productName = 11UITests;
-			productReference = 68BBCD8F1E8366C0007DC9B1 /* 11UITests.xctest */;
+			productReference = 68BBCD8F1E8366C0007DC9B1 /* HelloUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -194,6 +210,7 @@
 					68BBCD6F1E8366C0007DC9B1 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = B2P95ADDC5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					68BBCD831E8366C0007DC9B1 = {
@@ -210,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68BBCD6B1E8366C0007DC9B1 /* Build configuration list for PBXProject "11" */;
+			buildConfigurationList = 68BBCD6B1E8366C0007DC9B1 /* Build configuration list for PBXProject "Hello" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68BBCD6F1E8366C0007DC9B1 /* 11 */,
-				68BBCD831E8366C0007DC9B1 /* 11Tests */,
-				68BBCD8E1E8366C0007DC9B1 /* 11UITests */,
+				68BBCD6F1E8366C0007DC9B1 /* Hello */,
+				68BBCD831E8366C0007DC9B1 /* HelloTests */,
+				68BBCD8E1E8366C0007DC9B1 /* HelloUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BBCDA41E8366E4007DC9B1 /* SecViewController.m in Sources */,
 				68BBCD761E8366C0007DC9B1 /* ViewController.swift in Sources */,
+				68BBCDA71E839B23007DC9B1 /* ThirdViewController.m in Sources */,
 				68BBCD741E8366C0007DC9B1 /* AppDelegate.swift in Sources */,
+				68BBCDAB1E83A5B8007DC9B1 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		68BBCD861E8366C0007DC9B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68BBCD6F1E8366C0007DC9B1 /* 11 */;
+			target = 68BBCD6F1E8366C0007DC9B1 /* Hello */;
 			targetProxy = 68BBCD851E8366C0007DC9B1 /* PBXContainerItemProxy */;
 		};
 		68BBCD911E8366C0007DC9B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68BBCD6F1E8366C0007DC9B1 /* 11 */;
+			target = 68BBCD6F1E8366C0007DC9B1 /* Hello */;
 			targetProxy = 68BBCD901E8366C0007DC9B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,11 +433,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B2P95ADDC5;
 				INFOPLIST_FILE = 11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.-1";
+				PRODUCT_MODULE_NAME = Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "11/11-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Hello-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,11 +451,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B2P95ADDC5;
 				INFOPLIST_FILE = 11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.-1";
+				PRODUCT_MODULE_NAME = Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "11/11-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Hello-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -446,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/11.app/11";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello.app/Hello";
 			};
 			name = Debug;
 		};
@@ -461,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/11.app/11";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello.app/Hello";
 			};
 			name = Release;
 		};
@@ -496,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68BBCD6B1E8366C0007DC9B1 /* Build configuration list for PBXProject "11" */ = {
+		68BBCD6B1E8366C0007DC9B1 /* Build configuration list for PBXProject "Hello" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BBCD961E8366C0007DC9B1 /* Debug */,
@@ -505,29 +534,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68BBCD981E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "11" */ = {
+		68BBCD981E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "Hello" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BBCD991E8366C0007DC9B1 /* Debug */,
 				68BBCD9A1E8366C0007DC9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		68BBCD9B1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "11Tests" */ = {
+		68BBCD9B1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BBCD9C1E8366C0007DC9B1 /* Debug */,
 				68BBCD9D1E8366C0007DC9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		68BBCD9E1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "11UITests" */ = {
+		68BBCD9E1E8366C0007DC9B1 /* Build configuration list for PBXNativeTarget "HelloUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BBCD9F1E8366C0007DC9B1 /* Debug */,
 				68BBCDA01E8366C0007DC9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
